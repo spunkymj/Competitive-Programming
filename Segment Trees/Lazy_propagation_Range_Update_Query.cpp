@@ -1,3 +1,10 @@
+// You are given an array(of integers) of length n.
+// You are required to answer q queries.
+
+// Queries can be of two types
+// 0. 0 l r : In this you have to return sum of all elements arr[i] for i in l<=i<=r.
+// 1. 1 l r val: In this query u have to increase all elements in this interval [l, r] by val.
+
 #include<bits/stdc++.h>
 using namespace std;
 
