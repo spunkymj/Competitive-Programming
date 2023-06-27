@@ -1,3 +1,14 @@
+// You are given an array(of integers) of length n.
+// You are required to answer q queries.
+
+// Queries can be of two types
+// 0. 0 pos val : In this you have to update arr[pos] to val.
+// 1. 1 l r: In this query u have to find the sum of all elements in this interval.
+
+// Sum of elements in interval [l, r] means sum of all arr[i] for which i is in range [l, r].
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
